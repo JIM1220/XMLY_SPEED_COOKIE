@@ -24,4 +24,5 @@ jobs:
         run: python3 xmly_speed.py 
         env:
             XMLY_SPEED_COOKIE: ${{ secrets.XMLY_SPEED_COOKIE }}
+            BARK_MACHINE_CODE: ${{ secrets.BARK_MACHINE_CODE }} 
     
